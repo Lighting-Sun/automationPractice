@@ -48,14 +48,14 @@ public class base {
     }
 
     //method to take a screenshot from the driver!!
-    public String getScreenshotPath(String testCaseName, WebDriver driver) throws IOException {
-        TakesScreenshot takesScreenshot = (TakesScreenshot) driver;
-        //getting a file!
-        File source = takesScreenshot.getScreenshotAs(OutputType.FILE);
-        String destination = System.getProperty("user.dir") + "\\reports\\" + testCaseName +".png";
-        FileUtils.copyFile(source, new File(destination));
-        return destination;
-    }
+//    public String getScreenshotPath(String testCaseName, WebDriver driver) throws IOException {
+//        TakesScreenshot takesScreenshot = (TakesScreenshot) driver;
+//        //getting a file!
+//        File source = takesScreenshot.getScreenshotAs(OutputType.FILE);
+//        String destination = System.getProperty("user.dir") + "\\reports\\" + testCaseName +".png";
+//        FileUtils.copyFile(source, new File(destination));
+//        return destination;
+//    }
 
 
 }

@@ -1,0 +1,71 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-04-20T20:58:10.308Z",
+        "line": 3,
+        "name": "Test if the framework is working properly",
+        "description": "",
+        "id": "this-is-a-test;test-if-the-framework-is-working-properly",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5643000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "the user goes to \"http://automationpractice.com/index.php\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://automationpractice.com/index.php\"",
+                  "offset": 17
+                }
+              ],
+              "location": "stepDefinitions.StepDefinition.theUserGoesTo(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1717000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user access to the \"women\" section",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"women\"",
+                  "offset": 23
+                }
+              ],
+              "location": "stepDefinitions.StepDefinition.theUserAccessToTheSection(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the page will load the women section",
+            "match": {
+              "location": "stepDefinitions.StepDefinition.thePageWillLoadTheWomenSection()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "This is a test",
+    "description": "",
+    "id": "this-is-a-test",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/testing.feature",
+    "tags": []
+  }
+]
