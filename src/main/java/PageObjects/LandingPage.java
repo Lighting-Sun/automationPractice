@@ -1,6 +1,5 @@
 package PageObjects;
 
-import PageComponents.Footer;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.Test;
@@ -19,7 +18,5 @@ public class LandingPage {
         this.driver = driver;
     }
 
-
-    public Footer getFooterNavigation(){ return new Footer(driver,footerSection); }
 
 }

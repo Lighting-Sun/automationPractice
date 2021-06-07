@@ -1,4 +1,3 @@
-import PageComponents.Footer;
 import PageObjects.LandingPage;
 import com.aventstack.extentreports.ExtentTest;
 import org.openqa.selenium.WebDriver;
@@ -31,8 +30,6 @@ public class dummyTest extends base {
     public void basePageNavigation () throws IOException {
         driver.get("http://automationpractice.com/index.php");
         logger.info("Navigating to the landing page");
-        landingPage.getFooterNavigation().getLinkTextWomen().click();
-        Assert.assertTrue(false);
     }
 
     @AfterTest
